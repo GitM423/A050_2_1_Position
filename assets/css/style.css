@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: #EEEFE3;
+}
+
+section{
+    position: relative;
+}
+
+div{
+    height: 100vh;
+    background: url(../img/Background.png) top right no-repeat;
+    background-size: auto 100vh;
+
+}
+
+article{
+    width: 480px;
+    height: 380px;
+    background: #EEEFE399;
+    border-radius: 30px;
+    position: absolute;
+    left: 15vw;
+    top: 25vh;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 300px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+span{
+    font-size: 60px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    width: 415px;
+    position: absolute;
+    left: 40px;
+    top: 180px;
+}
+
+a{
+    background: orange;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
